@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let package = Package(name: "AssetGen",
+let package = Package(name: "AssetGeneration",
         dependencies: [
             .package(url: "https://github.com/kylef/Commander.git", .upToNextMajor(from: "0.9.1")),
             .package(url: "https://github.com/kylef/PathKit.git", .upToNextMajor(from: "1.0.1"))
